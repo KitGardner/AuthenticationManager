@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Main Page</title>
+		<link type="text/css" rel="stylesheet" href="/static/main.css?version=1.6">
+		<script type="text/javascript" src="/static/main.js?version=2.1"></script>
+	</head>
+	<body>
+		<div id="userPanel" class="UserBar">
+            <label id="userName" class="userDisplay">{{username}}</label>
+            <a id="logout" href="/logout">logout</a>
+        </div>
+		<h1>Authentication Manager</h1>
+        <input type="Button" Id="UserButton" value = "User Button" onclick="GetUsers()" class="Buttons">
+        <input type="Button" Id="GroupButton" value="Group Button" onclick="GetGroups()" class="Buttons">
+        <input type="Button" Id="RoleButton" value="Role Button" onclick="GetRoles()" class="Buttons">
+        
+        <div>
+        	<p id="ContentArea">placeholder for site information that will be grabbed with ajax calls</p>
+        </div>
+	</body>
+</html>

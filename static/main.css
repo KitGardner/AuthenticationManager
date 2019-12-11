@@ -1,0 +1,180 @@
+        .Buttons {
+            background-color: #00FFFF;
+            border-width : 10px;
+            border-style: outset;
+            border-color: #00BBBB;
+            margin-right: 10px 
+        }
+
+        div {
+            margin-top: 30px;
+        }
+
+        .Login {
+            border-style : outset;
+            border-color : #0099AA;
+            border-width: 5px;
+            height : 200px;
+            width : 400px;
+            background-color: #0099AA;
+        }
+        
+        .userInput{
+            width: 380px;
+            margin-left: 3px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            border-width: 3px;
+            border-color: #00BB55;
+            display: block;
+        }
+        
+        input[type=submit]{
+            display: block;
+            margin: 50px 10px 10px auto;
+            
+        }
+
+        .UserBar{
+                background-color: #00AADD;
+                font-size: 20px;
+                text-align: right;
+                padding-right: 10px;
+          }
+          
+        .userDisplay{
+                margin-right: 20px;
+          }
+          
+        a {
+                color: orange;
+          }
+
+        .UserInfo{
+            background-color: #BBBBBB;
+            padding: 5px;
+            width: 700px;
+            margin-right: auto;
+            margin-left: 20px;
+        }
+
+        .UserInfo label{
+            display: block;
+            padding: 5px 0px 5px 0px;
+        }
+        
+        .UserInfo input{
+            float: right;
+        }
+
+        .UserForm{
+            background-color: #CCCCCC;
+            width: 600px;
+            padding: 10px;
+        }
+        
+        
+        .UserForm input[type=button]{
+            float: right;
+            width: 80px;
+        }
+
+        .UserForm input[type=submit]{
+                float: right;
+                width: 80px;
+                margin: 0px;
+        }
+
+        
+        .UserForm label{
+            float: left;
+            width: 100px;
+        }
+        
+        .UserForm input[type=text]{
+            border-width: 3px;
+            border-color: #00BB00;
+            width: 300px;
+        }
+        
+        .UserForm table{
+            display: inline;
+        }
+        
+        .UserForm div{
+            margin-top: 0px;
+            margin-bottom: 10px;
+            display: block
+        }
+
+        .ResourceDisplay li{
+        display: inline;
+        background-color: #22EEFF;
+        margin: 0px 5px 0px 5px;
+        }
+        
+        .ResourceDisplay ul{
+            padding: 0px;
+        }
+        
+        .ResourceDisplay {
+            width: 700px;
+            background-color: #DDDDDD;
+            padding: 10px;
+        }
+        .ResourceDisplay input{
+            float: right;
+        }
+        
+        .ResourceInfo{
+            width: 700px;
+            background-color: #DDDDDD;
+            padding: 10px;
+            margin-top: 15px;
+        }
+        
+        .NameLabel {
+            display: block;
+            text-align: center;
+            font-weight: bold;
+        }
+        .ResourceInfo input[type="text"]{
+            display: block;
+            text-align: center;
+            margin: 10px 100px 10px auto;
+            width: 300px;
+            font-size: 22px;
+            border: 2px solid green;
+        }
+        
+        .ResourceInfo table{
+            display: inline;
+            padding: 10px;
+        }
+        
+        .ResourceInfo span{
+            display: inline;
+            margin: 60px;
+        }
+        
+        .ResourceInfo ul{
+            display: inline-block;
+            width: 200px;
+            list-style-type: none;
+            text-align: center;
+        }
+        
+        .ResourceInfo div{
+            display: inline-block;
+            background-color: red;
+        }
+        
+        .ResourceInfo li label{
+            display: inline;
+        }
+        
+        .ResourceInfo input[type="button"]{
+            float: right;
+            width: 100px;
+            height: 30px;
+        }
